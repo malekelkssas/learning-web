@@ -1,0 +1,68 @@
+
+/* constructor => 
+Selector  
+{
+    Property: value;
+    Property2: value
+}
+ this target all element
+or
+
+.classofSelector {
+    Property: value;
+    Property2: value
+}
+
+or
+
+#idofselector{
+        Property: value;
+        Property2: value
+    }
+
+--------
+name conventional => malek-mohamed
+*/
+
+p{
+    color: aqua;
+    /* text-align: center; */
+    font-size: 40px;
+}
+.mm {
+    color: red;
+}
+
+div{
+    /* background-color: beige;
+    background-color: rgb(50 0 255 /  50%);  50% for trasparent back
+    background-color: #00FFFF;
+    background-image: url("duck the duck down.png");
+    background-repeat:repeat; repeate the background
+    background-repeat: no-repeat;repeate the background
+    background-repeat: repeat-x;repeate the background
+    background-repeat: repeat-y;repeate the background */
+    /* -------------- */
+    
+    background-color: rgb(235, 10, 167);
+    /* top right bottom left*/
+    /* padding: 10px 100px 10px 100px; =>padding for the inner element unlike margin*/
+    padding: 50px; /*the width and the hight is affected by the padding*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;/*we can use negative values or percentage*/
+    /* border-width: 10px; i must all the three property of the border
+    border-color: blueviolet yellow;
+    border-style: solid; */
+    /*short cut for border*/
+    border: 10px solid blue;
+background-color: beige;
+    width: 499px;
+    margin: auto;
+    padding: 100px;
+    margin: auto;
+    border: 100px solid blueviolet;
+    outline: 10px solid;
+    
+}
+
